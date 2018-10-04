@@ -1,0 +1,115 @@
+{
+   "appDesc": {
+      "description": "Visualizer permet à votre appareil photo USB de facilement prendre en photo et présenter votre travail en classe.",
+      "message": "Visualizer permet à votre appareil photo USB de facilement prendre en photo et présenter votre travail en classe."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "Caméra"
+   },
+   "btnCancel": {
+      "message": "Annuler"
+   },
+   "btnConfirm": {
+      "message": "Confirmer"
+   },
+   "btnReset": {
+      "message": "Réinitialiser"
+   },
+   "btnReview": {
+      "message": "Révision"
+   },
+   "btnReviewPic": {
+      "message": "Révision"
+   },
+   "btnRotate": {
+      "message": "Pivoter"
+   },
+   "btnSave": {
+      "message": "Enregistrer"
+   },
+   "btnSnapshot": {
+      "message": "Prendre des captures d'écran"
+   },
+   "text10Secs": {
+      "message": "10 sec"
+   },
+   "text2Secs": {
+      "message": "2 sec"
+   },
+   "text3Secs": {
+      "message": "3 sec"
+   },
+   "text4Secs": {
+      "message": "4 sec"
+   },
+   "textDelete": {
+      "message": "Supprimer"
+   },
+   "textDeleteTitle": {
+      "message": "Supprimer ce fichier ?"
+   },
+   "textDeleteWarn": {
+      "message": "Ces éléments seront définitivement supprimés et ne pourront pas être récupérés. Êtes-vous sûr ?"
+   },
+   "textDisplayMode": {
+      "message": "Mode d'affichage"
+   },
+   "textFreeze": {
+      "message": "Arrêt sur image"
+   },
+   "textFullScreen": {
+      "message": "Plein écran"
+   },
+   "textInstantPreview": {
+      "message": "Aperçu instantané"
+   },
+   "textMirror": {
+      "message": "Miroir"
+   },
+   "textMirrorH": {
+      "message": "Horizontal"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "Vertical"
+   },
+   "textOff": {
+      "message": "Non"
+   },
+   "textReload": {
+      "message": "Recharger la liste de caméras"
+   },
+   "textResolution": {
+      "message": "Résolution"
+   },
+   "textResolutionWarn": {
+      "message": "Votre caméra ne prend pas en charge cette résolution. Veuillez choisir une autre résolution."
+   },
+   "textReviewTitle": {
+      "message": "Révision de photos"
+   },
+   "textSaveDisc": {
+      "message": "Enregistrer sur le disque"
+   },
+   "textSavePDF": {
+      "message": "Enregistrer comme PDF"
+   },
+   "textSelectDevice": {
+      "message": "Sélectionner caméra"
+   },
+   "textSettings": {
+      "message": "Paramètres"
+   },
+   "textSnapshotTimer": {
+      "message": "Minuteur du cliché"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}

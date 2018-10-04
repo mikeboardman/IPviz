@@ -1,0 +1,115 @@
+{
+   "appDesc": {
+      "description": "Visualizer consente alla vostra videocamera USB di riprendere e presentare facilmente il lavoro della classe.",
+      "message": "Visualizer consente alla vostra videocamera USB di riprendere e presentare facilmente il lavoro della classe."
+   },
+   "appName": {
+      "description": "Visualizer di IPEVO",
+      "message": "Visualizer di IPEVO"
+   },
+   "btnCamera": {
+      "message": "Videocamera"
+   },
+   "btnCancel": {
+      "message": "Annulla"
+   },
+   "btnConfirm": {
+      "message": "Conferma"
+   },
+   "btnReset": {
+      "message": "Reimposta"
+   },
+   "btnReview": {
+      "message": "Rassegna"
+   },
+   "btnReviewPic": {
+      "message": "Rassegna"
+   },
+   "btnRotate": {
+      "message": "Ruota"
+   },
+   "btnSave": {
+      "message": "Salva"
+   },
+   "btnSnapshot": {
+      "message": "Come fare delle istantanee"
+   },
+   "text10Secs": {
+      "message": "10 secondi"
+   },
+   "text2Secs": {
+      "message": "2 secondi"
+   },
+   "text3Secs": {
+      "message": "3 secondi"
+   },
+   "text4Secs": {
+      "message": "4 secondi"
+   },
+   "textDelete": {
+      "message": "Cancella"
+   },
+   "textDeleteTitle": {
+      "message": "Cancellare questo file?"
+   },
+   "textDeleteWarn": {
+      "message": "Questi elementi saranno definitivamente eliminati e non possono essere recuperati. Sei sicuro di volere procedere?"
+   },
+   "textDisplayMode": {
+      "message": "Modalità di Visualizzazione"
+   },
+   "textFreeze": {
+      "message": "Fermo Immagine"
+   },
+   "textFullScreen": {
+      "message": "Schermo Intero"
+   },
+   "textInstantPreview": {
+      "message": "Anteprima Immediata"
+   },
+   "textMirror": {
+      "message": "Specchio"
+   },
+   "textMirrorH": {
+      "message": "Orizzontale"
+   },
+   "textMirrorHV": {
+      "message": "O+V"
+   },
+   "textMirrorV": {
+      "message": "Verticale"
+   },
+   "textOff": {
+      "message": "Off"
+   },
+   "textReload": {
+      "message": "Ricarica elenco videocamera"
+   },
+   "textResolution": {
+      "message": "Risoluzione"
+   },
+   "textResolutionWarn": {
+      "message": "La tua videocamera non supporta questa risoluzione. Si prega di scegliere un'altra risoluzione."
+   },
+   "textReviewTitle": {
+      "message": "Rassegna Foto"
+   },
+   "textSaveDisc": {
+      "message": "Salva su Disco"
+   },
+   "textSavePDF": {
+      "message": "Salva come PDF"
+   },
+   "textSelectDevice": {
+      "message": "Seleziona Fotocamera"
+   },
+   "textSettings": {
+      "message": "Impostazioni"
+   },
+   "textSnapshotTimer": {
+      "message": "Timer Istantanea"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}

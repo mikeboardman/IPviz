@@ -1,0 +1,115 @@
+{
+   "appDesc": {
+      "description": "Visualizer permite a tu cámara USB capturar y presentar trabajo de clase fácilmente.",
+      "message": "Visualizer permite a tu cámara USB capturar y presentar trabajo de clase fácilmente."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "Cámara"
+   },
+   "btnCancel": {
+      "message": "Cancelar"
+   },
+   "btnConfirm": {
+      "message": "Confirmar"
+   },
+   "btnReset": {
+      "message": "Restablecer"
+   },
+   "btnReview": {
+      "message": "Revisión"
+   },
+   "btnReviewPic": {
+      "message": "Revisión"
+   },
+   "btnRotate": {
+      "message": "Girar"
+   },
+   "btnSave": {
+      "message": "Guardar"
+   },
+   "btnSnapshot": {
+      "message": "Capturas de pantalla"
+   },
+   "text10Secs": {
+      "message": "10 s"
+   },
+   "text2Secs": {
+      "message": "2 s"
+   },
+   "text3Secs": {
+      "message": "3 s"
+   },
+   "text4Secs": {
+      "message": "4 s"
+   },
+   "textDelete": {
+      "message": "Borrar"
+   },
+   "textDeleteTitle": {
+      "message": "¿Eliminar este archivo?"
+   },
+   "textDeleteWarn": {
+      "message": "Estos elementos se eliminarán de forma permanente y no se pueden recuperar. ¿Está seguro?"
+   },
+   "textDisplayMode": {
+      "message": "Modo de visualización"
+   },
+   "textFreeze": {
+      "message": "Congelar"
+   },
+   "textFullScreen": {
+      "message": "Pantalla completa"
+   },
+   "textInstantPreview": {
+      "message": "Vista previa instantánea"
+   },
+   "textMirror": {
+      "message": "Espejo"
+   },
+   "textMirrorH": {
+      "message": "Horizontal"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "Vertical"
+   },
+   "textOff": {
+      "message": "Apagado"
+   },
+   "textReload": {
+      "message": "Actualizar lista de cámaras"
+   },
+   "textResolution": {
+      "message": "Resolución"
+   },
+   "textResolutionWarn": {
+      "message": "La cámara no es compatible con esta resolución. Por favor, elija otra resolución."
+   },
+   "textReviewTitle": {
+      "message": "Revisión de fotos y vídeos"
+   },
+   "textSaveDisc": {
+      "message": "Guardar en disco"
+   },
+   "textSavePDF": {
+      "message": "Guardar como PDF"
+   },
+   "textSelectDevice": {
+      "message": "Seleccionar cámara"
+   },
+   "textSettings": {
+      "message": "Ajustes"
+   },
+   "textSnapshotTimer": {
+      "message": "Temporizador de instantáneas"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,118 @@
+{
+   "appDesc": {
+      "description": "Visualizer allows your USB camera to capture and present class work easily.",
+      "message": "Visualizer allows your USB camera to capture and present class work easily."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "Camera"
+   },
+   "btnCancel": {
+      "message": "Cancel"
+   },
+   "btnConfirm": {
+      "message": "Confirm"
+   },
+   "btnReset": {
+      "message": "Reset"
+   },
+   "btnReview": {
+      "message": "Review"
+   },
+   "btnReviewPic": {
+      "message": "Review"
+   },
+   "btnRotate": {
+      "message": "Rotate"
+   },
+   "btnSave": {
+      "message": "Save"
+   },
+   "btnSnapshot": {
+      "message": "Snapshot"
+   },
+   "text10Secs": {
+      "message": "10 Sec"
+   },
+   "text2Secs": {
+      "message": "2 Sec"
+   },
+   "text3Secs": {
+      "message": "3 Sec"
+   },
+   "text4Secs": {
+      "message": "4 Sec"
+   },
+   "textDelete": {
+      "message": "Delete"
+   },
+   "textDeleteTitle": {
+      "message": "Delete file(s)?"
+   },
+   "textDeleteWarn": {
+      "message": "The selected file(s) will be permanently deleted and cannot be recovered. Are you sure you want to delete the file(s)?"
+   },
+   "textDisplayMode": {
+      "message": "Display Mode"
+   },
+   "textFreeze": {
+      "message": "Freeze"
+   },
+   "textFullScreen": {
+      "message": "Full Screen"
+   },
+   "textIPEVO": {
+      "message": "IPEVO Visualizer"
+   },
+   "textInstantPreview": {
+      "message": "Instant Preview"
+   },
+   "textMirror": {
+      "message": "Mirror"
+   },
+   "textMirrorH": {
+      "message": "Horizontal"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "Vertical"
+   },
+   "textOff": {
+      "message": "Off"
+   },
+   "textReload": {
+      "message": "Reload camera list"
+   },
+   "textResolution": {
+      "message": "Resolution"
+   },
+   "textResolutionWarn": {
+      "message": "Your camera does not support this resolution. Please choose other resolutions."
+   },
+   "textReviewTitle": {
+      "message": "Photos Review"
+   },
+   "textSaveDisc": {
+      "message": "Save to Disc"
+   },
+   "textSavePDF": {
+      "message": "Save as PDF"
+   },
+   "textSelectDevice": {
+      "message": "Select Camera"
+   },
+   "textSettings": {
+      "message": "Settings"
+   },
+   "textSnapshotTimer": {
+      "message": "Snapshot Timer"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}

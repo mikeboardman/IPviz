@@ -1,0 +1,76 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk031LRLl1+RVd6Jwmzc1JcvZqMvoAVufscOCxmux3RDqcx/92zPN0ybI2ZIRBuUynm4pM2NaPnhNbAIZszf/eHYxpsQNI3lQIvp4zHnPxFkCaPRhv/vvPFSOSSJVXQX1y7+kLogsBNBF/TUnI+ozyJUvm4wJpEwWYw0po0DXl55N02jdqrrCBnQsavcB4gY+K2Pjzxy3SG05CNA/BToStxkdzLUqyjNCzqeNKJys5ig/gR/yOvqBo2O6251MurjXMyqZNmtntzvYioUi24H/FouLsLZ/PCEAzhN7BOFY0XhDDP6d7I7k1m3ENUCPG5n/Rsph+sI8/xRmODjfc9PEdwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "fullscreen", "alwaysOnTopWindows", "unlimitedStorage", "videoCapture", "usb", "hid", {
+      "usbDevices": [ {
+         "productId": 513,
+         "vendorId": 6008
+      }, {
+         "productId": 514,
+         "vendorId": 6008
+      }, {
+         "productId": 515,
+         "vendorId": 6008
+      }, {
+         "productId": 516,
+         "vendorId": 6008
+      }, {
+         "productId": 517,
+         "vendorId": 6008
+      }, {
+         "productId": 518,
+         "vendorId": 6008
+      }, {
+         "productId": 519,
+         "vendorId": 6008
+      }, {
+         "productId": 520,
+         "vendorId": 6008
+      }, {
+         "productId": 521,
+         "vendorId": 6008
+      }, {
+         "productId": 528,
+         "vendorId": 6008
+      }, {
+         "productId": 529,
+         "vendorId": 6008
+      }, {
+         "productId": 530,
+         "vendorId": 6008
+      }, {
+         "productId": 531,
+         "vendorId": 6008
+      }, {
+         "productId": 532,
+         "vendorId": 6008
+      }, {
+         "productId": 533,
+         "vendorId": 6008
+      }, {
+         "productId": 534,
+         "vendorId": 6008
+      }, {
+         "productId": 544,
+         "vendorId": 6008
+      }, {
+         "productId": 546,
+         "vendorId": 6008
+      } ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.4"
+}

@@ -1,0 +1,118 @@
+{
+   "appDesc": {
+      "description": "Visualizer는 USB 카메라로 수업을 쉽게 캡쳐하고 나타낼 수 있습니다.",
+      "message": "Visualizer는 USB 카메라로 수업을 쉽게 캡쳐하고 나타낼 수 있습니다."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "카메라모드"
+   },
+   "btnCancel": {
+      "message": "취소"
+   },
+   "btnConfirm": {
+      "message": "확인"
+   },
+   "btnReset": {
+      "message": "재설정"
+   },
+   "btnReview": {
+      "message": "리뷰"
+   },
+   "btnReviewPic": {
+      "message": "리뷰"
+   },
+   "btnRotate": {
+      "message": "회전"
+   },
+   "btnSave": {
+      "message": "저장"
+   },
+   "btnSnapshot": {
+      "message": "사진 촬영"
+   },
+   "text10Secs": {
+      "message": "10초"
+   },
+   "text2Secs": {
+      "message": "2초"
+   },
+   "text3Secs": {
+      "message": "3초"
+   },
+   "text4Secs": {
+      "message": "4초"
+   },
+   "textDelete": {
+      "message": "삭제"
+   },
+   "textDeleteTitle": {
+      "message": "파일을 삭제하시겠습니까?"
+   },
+   "textDeleteWarn": {
+      "message": "선택된 파일은 영구적으로 삭제되며 복구할 수 없습니다. 이 파일을 삭제하시겠습니까?"
+   },
+   "textDisplayMode": {
+      "message": "디스플레이 모드"
+   },
+   "textFreeze": {
+      "message": "정지"
+   },
+   "textFullScreen": {
+      "message": "전체화면"
+   },
+   "textIPEVO": {
+      "message": "IPEVO Visualizer"
+   },
+   "textInstantPreview": {
+      "message": "바로 미리 보기"
+   },
+   "textMirror": {
+      "message": "반전"
+   },
+   "textMirrorH": {
+      "message": "상하반전"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "좌우반전"
+   },
+   "textOff": {
+      "message": "끄기"
+   },
+   "textReload": {
+      "message": "카메라 목록 새로 고침"
+   },
+   "textResolution": {
+      "message": "해상도"
+   },
+   "textResolutionWarn": {
+      "message": "귀하의 카메라는 이 해상도를 지원하지 않습니다. 다른 해상도를 선택하십시오."
+   },
+   "textReviewTitle": {
+      "message": "리뷰"
+   },
+   "textSaveDisc": {
+      "message": "Disc에 저장"
+   },
+   "textSavePDF": {
+      "message": "PDF로 저장"
+   },
+   "textSelectDevice": {
+      "message": "카메라 선택"
+   },
+   "textSettings": {
+      "message": "설정"
+   },
+   "textSnapshotTimer": {
+      "message": "사진촬영 타이머"
+   },
+   "textZoom": {
+      "message": "확대/축소"
+   }
+}

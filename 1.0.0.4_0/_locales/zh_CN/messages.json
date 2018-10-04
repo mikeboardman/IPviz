@@ -1,0 +1,118 @@
+{
+   "appDesc": {
+      "description": "Visualizer支持USB摄像机，让教学演示事半功倍。",
+      "message": "Visualizer支持USB摄像机，让教学演示事半功倍。"
+   },
+   "appName": {
+      "description": "爱比 IPEVO Visualizer",
+      "message": "爱比 IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "相机"
+   },
+   "btnCancel": {
+      "message": "取消"
+   },
+   "btnConfirm": {
+      "message": "确认"
+   },
+   "btnReset": {
+      "message": "还原"
+   },
+   "btnReview": {
+      "message": "检视 "
+   },
+   "btnReviewPic": {
+      "message": "检视照片"
+   },
+   "btnRotate": {
+      "message": "旋转"
+   },
+   "btnSave": {
+      "message": "储存"
+   },
+   "btnSnapshot": {
+      "message": "拍照"
+   },
+   "text10Secs": {
+      "message": "10 秒"
+   },
+   "text2Secs": {
+      "message": "2 秒 "
+   },
+   "text3Secs": {
+      "message": "3 秒 "
+   },
+   "text4Secs": {
+      "message": "4 秒"
+   },
+   "textDelete": {
+      "message": "删除 "
+   },
+   "textDeleteTitle": {
+      "message": "删除这些档案"
+   },
+   "textDeleteWarn": {
+      "message": "选择的档案将会永久删除且无法还原，确定要删除？"
+   },
+   "textDisplayMode": {
+      "message": "显示模式"
+   },
+   "textFreeze": {
+      "message": "冻结画面"
+   },
+   "textFullScreen": {
+      "message": "全屏幕"
+   },
+   "textIPEVO": {
+      "message": "IPEVO Visualizer"
+   },
+   "textInstantPreview": {
+      "message": "拍照后预览时间"
+   },
+   "textMirror": {
+      "message": "镜像"
+   },
+   "textMirrorH": {
+      "message": "水平翻转"
+   },
+   "textMirrorHV": {
+      "message": "水平+垂直翻转"
+   },
+   "textMirrorV": {
+      "message": "垂直翻转"
+   },
+   "textOff": {
+      "message": "关闭 "
+   },
+   "textReload": {
+      "message": "重载"
+   },
+   "textResolution": {
+      "message": "分辨率"
+   },
+   "textResolutionWarn": {
+      "message": "相机不支持此分辨率， 请选择其他设置"
+   },
+   "textReviewTitle": {
+      "message": "检视"
+   },
+   "textSaveDisc": {
+      "message": "保存到硬盘 "
+   },
+   "textSavePDF": {
+      "message": "保存成PDF "
+   },
+   "textSelectDevice": {
+      "message": "选择相机 "
+   },
+   "textSettings": {
+      "message": "设定"
+   },
+   "textSnapshotTimer": {
+      "message": "拍照计时"
+   },
+   "textZoom": {
+      "message": "缩放"
+   }
+}

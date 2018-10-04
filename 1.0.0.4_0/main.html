@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1'>
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <!-- control bar -->
+    <div id="v_windowControl">
+        <div class="window_setting no_drag">
+            <a href="#"></a>
+        </div>
+        <span id="appName"></span>
+        <div class="window_close no_drag" id="closeApp">
+            <a href="#"></a>
+        </div>
+        <div class="window_max no_drag" id="fullscreen-button">
+            <a href="#"></a>
+        </div>
+        <div class="window_max-off no_drag" id="exit-fullscreen-button">
+            <a href="#"></a>
+        </div>
+        <div class="window_min no_drag" id="minApp">
+            <a href="#" id="minApp"></a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- not support window -->
+    <div class="darkside_bg" style="display:none" id="resolution_not_support">
+        <div class="warn_box">
+            <h4 id="textResolutionWarn"></h4>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- setting window -->
+    <div class="darkside_bg" style="display:none" id="setting_dialog">
+        <div class="setting_box">
+            <h4 id="setting">Setting</h4>
+            <div class="inner_box">
+                <p id="textInstantPreview"></p>
+                <div class="inner_box2">
+                    <ul>
+                        <li>
+                            <label for="instant">
+                                <input name="instant" type="radio" value="0" checked="checked" />
+                                <span id="textPreviewOff"></span>
+                            </label>
+
+                        </li>
+                        <li>
+                            <label for="instant">
+                                <input name="instant" type="radio" value="2"/>
+                                <span id="text2Secs"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="instant">
+                                <input name="instant" type="radio" value="4" />
+                                <span id="text4Secs"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <p id="textSnapshotTimer"></p>
+                <div class="inner_box2">
+                    <ul>
+                        <li>
+                            <label for="instant">
+                                <input name="snapshot_timer" type="radio" value="0" checked="checked"/>
+                                <span id="textTimerOff"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="instant">
+                                <input name="snapshot_timer" type="radio" value="3" />
+                                <span id="text3Secs"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="instant">
+                                <input name="snapshot_timer" type="radio" value="10" />
+                                <span id="text10Secs"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="version">
+                Version：<span id="textVersion">Version</span>
+            </span>
+            <a class="botttn_b flr" href="#" style="margin-left:15px" id="btnSaveSetting"></a>
+            <a class="botttn_b flr" href="#" id="btnCancelSetting"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- camear select window -->
+    <div class="darkside_bg" style="display:none" id="camera_select">
+        <div class="dark_bg cam_selection">
+            <dl>
+                <dt style="margin-bottom:23px">
+                    <span id="textSelectDevice"></span>
+                </dt>
+                <dd class="styled-select">
+                    <select id="camSelector">
+                    </select>
+                </dd>
+                <dt style="margin-top:5px">
+                    <a class="botttn_w flr" id="textReload"></a>
+                </dt>
+            </dl>
+
+        </div>
+    </div>
+
+    <!-- resolution window -->
+    <div class="darkside_bg" style="display:none" id="resolution_select">
+        <div class="dark_bg resolution_box">
+            <dl>
+                <dt id="textResolution">Resolution</dt>
+                <dd>
+                    <ul id="videoResolution">
+                        <li class="" data-value="10">
+                            <a href="#">3264x2448</a>
+                        </li>
+                        <li class="" data-value="9">
+                            <a href="#">3264x1836</a>
+                        </li>
+                        <li class="" data-value="8">
+                            <a href="#">2592x1944</a>
+                        </li>
+                        <li class="" data-value="7">
+                            <a href="#">2048x1536</a>
+                        </li>
+                        <li class="" data-value="6">
+                            <a href="#">1920x1080</a>
+                        </li>
+                        <li class="" data-value="5">
+                            <a href="#">1600x1200</a>
+                        </li>
+                        <li class="" data-value="4">
+                            <a href="#">1280x720</a>
+                        </li>
+                        <li class="" data-value="3">
+                            <a href="#">1024x768</a>
+                        </li>
+                        <li class="" data-value="2">
+                            <a href="#">800x600</a>
+                        </li>
+                        <li class="" data-value="1">
+                            <a href="#">640x480</a>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- rotate window -->
+    <div class="darkside_bg" style="display:none" id="rotate_select">
+        <div class="dark_bg rotation_box">
+            <dl>
+                <dt id="txtRotate">Rotate</dt>
+                <dd class="rotate_control_top">
+                    <ul>
+                        <li class="r0" data-value="-180">
+                            <a href="#"></a>
+                        </li>
+                        <li class="r1" data-value="-90">
+                            <a href="#"></a>
+                        </li>
+                        <li class="r2 nowon" data-value="0">
+                            <a href="#"></a>
+                        </li>
+                        <li class="r3" data-value="90">
+                            <a href="#"></a>
+                        </li>
+                        <li class="r4" data-value="180">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </dd>
+                <dd class="rotate_control_mid">
+                    <ul>
+                        <li class="reduce"></li>
+                        <li class="labar custom"></li>
+                        <!-- <li class="labar">
+                            <div class="gp" style="left:104px;"></div>
+                        </li> -->
+                        <li class="increase"></li>
+                    </ul>
+                </dd>
+                <dd class="mirror_control">
+                    <ul>
+                        <li class="yy" id="textMirror">Mirror</li>
+                        <li>
+                            <label>
+                                <input class="mirror" name="mirror" type="checkbox" value="1" />
+                                <span class="mirror_v" id="textMirrorH">Horizontal</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input class="mirror" name="mirror" type="checkbox" value="2" />
+                                <span class="mirror_h" id="textMirrorV">Vertical</span>
+                            </label>
+                        </li>
+                    </ul>
+                </dd>
+                <dd>
+                    <a class="botttn_w flr" href="#" id="btnRotateReset">Reset</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="darkside_bg" style="display:none" id="zoom_box">
+        <div class="dark_bg zoom_box">
+            <dl>
+                <dt><span id="txtZoom">Zoom</span> <span id="zoomText">1x</span></dt>
+                <dd class="zoom_control_top">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="lastone"></li>
+                    </ul>
+                </dd>
+                <dd class="zoom_control_mid">
+                    <ul>
+                        <li class="reduce"></li>
+                        <li class="labar custom"></li>
+                        <li class="increase"></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- confirm window -->
+    <div class="darkside_bg" style="display:none" id="confirm_dialog">
+        <div class="warn_box">
+            <h4 id="textConfirm"></h4>
+            <div class="inner_box">
+                <span id="textDeleteWarn"></span>
+            </div>
+            <a class="botttn_b flr" href="#" style="margin-left:15px" id="btnConfirm"></a>
+            <a class="botttn_b flr" href="#" id="btnCancel"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div id="container" class="review_bg">
+        <div id="left_menu">
+            <ul id="cameraBtnGroup">
+                <li class="cam-others" id="btnCam">
+                    <a href="#"></a>
+                </li>
+                <li class="zoom" id="btnZoom">
+                    <a href="#"></a>
+                </li>
+                <li class="rotation">
+                    <a href="#"></a>
+                </li>
+                <li class="resolution">
+                    <a href="#"></a>
+                </li>
+            </ul>
+            <ul class="under">
+                <li class="review-mode" id="changeToReview">
+                    <a href="#"></a>
+                </li>
+                <li class="camera-mode" id="changeToCamera" style="display:none">
+                    <a href="#"></a>
+                </li>
+                <li class="ipevo-logo">
+                    <a href="https://www.ipevo.com" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="pan_box zoom1x" id="minimap">
+            <div class="sq" id="minimap_viewer" style="width:70%; height:70%; left:8%; top:12%;"></div>
+            <div class="digit">2.5x</div>
+        </div>
+        <div class="live" id="live">
+            <div class="display" id="stage">
+                <div class="videoContainer" id="videoContainer">
+                    <video autoplay id="videoElement"></video>
+                </div>
+            </div>
+            <div id="canvas_area">
+                <canvas id="canvas"></canvas>
+            </div>
+            <span class="countDown-shot" id="snapshotTimer"></span>
+        </div>
+        <div id="flasher" class="center"></div>
+
+        <div id="key_btn">
+            <a href="#" id="snapshot-button">
+                <img src="images/main/snapshot@2x.png" width="60" height="60">
+            </a>
+        </div>
+        <div id="right_menu">
+            <ul>
+                <li class="btn_focus" id="hid-focus">
+                    <a href="#"></a>
+                </li>
+                <li class="btn_freeze" id="btn-freeze">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="photo_pages" id="reviewHeader" style="display:none">
+            <div class="back_list">
+                <a href="#" id="back-to-review"></a>
+            </div>
+            <div class="back_no">
+                <ul>
+                    <li>
+                        <a class="arr_left" href="#" id="single-image-prev"></a>
+                    </li>
+                    <li id="single-image-num"></li>
+                    <li>
+                        <a class="arr_right" href="#" id="single-image-next"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="all_photos" id="reviewArea" style="display:none"></div>
+        <div class="all_photos_single" id="singleReview" style="display:none">
+            <div id="singleReviewCanvasArea">
+                <canvas id="singleReviewCanvas"></canvas>
+            </div>
+        </div>
+        <div class="review_control" id="reviewFooter" style="display:none">
+            <ul>
+                <li class="rotate_foto" style="display:none" id="singleViewRotate" data-value="-90">
+                    <a href="#"></a>
+                </li>
+                <li class="savepdf" id="btnSavePDF">
+                    <a href="#"></a>
+                </li>
+                <li class="saveas" id="btnSaveImg">
+                    <a href="#"></a>
+                </li>
+                <li class="delete" id="btnDelImg">
+                    <a href="#"></a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="js/i18n/i18n.js"></script>
+    <script src="js/jspdf.min.js"></script>
+    <script src="js/whammy.min.js"></script>
+    <script src="js/whammy.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/hidControl.js"></script>
+</body>
+
+</html>

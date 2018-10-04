@@ -1,0 +1,115 @@
+{
+   "appDesc": {
+      "description": "VisualizerがあればUSBカメラを使った授業のキャプチャと共有が簡単です。",
+      "message": "VisualizerがあればUSBカメラを使った授業のキャプチャと共有が簡単です。"
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "カメラ"
+   },
+   "btnCancel": {
+      "message": "取消"
+   },
+   "btnConfirm": {
+      "message": "確認"
+   },
+   "btnReset": {
+      "message": "リセット"
+   },
+   "btnReview": {
+      "message": "レビュー"
+   },
+   "btnReviewPic": {
+      "message": "レビュー"
+   },
+   "btnRotate": {
+      "message": "画像の回転"
+   },
+   "btnSave": {
+      "message": "保存"
+   },
+   "btnSnapshot": {
+      "message": "撮影"
+   },
+   "text10Secs": {
+      "message": "10 秒"
+   },
+   "text2Secs": {
+      "message": "2 秒 "
+   },
+   "text3Secs": {
+      "message": "3 秒 "
+   },
+   "text4Secs": {
+      "message": "4 秒"
+   },
+   "textDelete": {
+      "message": "削除"
+   },
+   "textDeleteTitle": {
+      "message": "このファイル(これらのファイル)を削除しますか？"
+   },
+   "textDeleteWarn": {
+      "message": "選択したファイルを削除します。削除すると元に戻すことはできません。削除してもよろしいですか？"
+   },
+   "textDisplayMode": {
+      "message": "表示の切り替え"
+   },
+   "textFreeze": {
+      "message": "動画の一時停止"
+   },
+   "textFullScreen": {
+      "message": "フルスクリーン"
+   },
+   "textInstantPreview": {
+      "message": "撮影した画像の表示時間"
+   },
+   "textMirror": {
+      "message": "反転"
+   },
+   "textMirrorH": {
+      "message": "左右反転"
+   },
+   "textMirrorHV": {
+      "message": "左右＋上下"
+   },
+   "textMirrorV": {
+      "message": "上下反転"
+   },
+   "textOff": {
+      "message": "オフ"
+   },
+   "textReload": {
+      "message": "デバイスリストのリロード"
+   },
+   "textResolution": {
+      "message": "解像度"
+   },
+   "textResolutionWarn": {
+      "message": "ご利用中のカメラは選択された解像度をサポートしていません。他の解像度をお選びください。"
+   },
+   "textReviewTitle": {
+      "message": "レビューモード"
+   },
+   "textSaveDisc": {
+      "message": "ディスク上に保存"
+   },
+   "textSavePDF": {
+      "message": "PDFとしてエクスポート"
+   },
+   "textSelectDevice": {
+      "message": "カメラを選択する"
+   },
+   "textSettings": {
+      "message": "設定"
+   },
+   "textSnapshotTimer": {
+      "message": "タイマー撮影"
+   },
+   "textZoom": {
+      "message": "ズーム"
+   }
+}

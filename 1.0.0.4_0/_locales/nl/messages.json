@@ -1,0 +1,118 @@
+{
+   "appDesc": {
+      "description": "Visualizer staat uw USB camera toe om eenvoudig klasse werk vast te leggen en te presenteren.",
+      "message": "Visualizer staat uw USB camera toe om eenvoudig klasse werk vast te leggen en te presenteren."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "Camera"
+   },
+   "btnCancel": {
+      "message": "Annuleren"
+   },
+   "btnConfirm": {
+      "message": "Bevestig"
+   },
+   "btnReset": {
+      "message": "Resetten"
+   },
+   "btnReview": {
+      "message": "Weergave"
+   },
+   "btnReviewPic": {
+      "message": "Weergave"
+   },
+   "btnRotate": {
+      "message": "Roteren"
+   },
+   "btnSave": {
+      "message": "Opslaan"
+   },
+   "btnSnapshot": {
+      "message": "Momentopname"
+   },
+   "text10Secs": {
+      "message": "10 sec"
+   },
+   "text2Secs": {
+      "message": "2 sec"
+   },
+   "text3Secs": {
+      "message": "3 sec"
+   },
+   "text4Secs": {
+      "message": "4 sec"
+   },
+   "textDelete": {
+      "message": "Verwijder"
+   },
+   "textDeleteTitle": {
+      "message": "Delete file(s)?"
+   },
+   "textDeleteWarn": {
+      "message": "De geselecteerde bestanden zullen permanent verwijderd worden en kunnen niet worden hersteld. Weet u zeker dat u de bestanden wilt verwijderen?"
+   },
+   "textDisplayMode": {
+      "message": "Display Modus"
+   },
+   "textFreeze": {
+      "message": "Bevries"
+   },
+   "textFullScreen": {
+      "message": "Volledig scherm"
+   },
+   "textIPEVO": {
+      "message": "IPEVO Visualizer"
+   },
+   "textInstantPreview": {
+      "message": "Onmiddelijke Voorvertoning"
+   },
+   "textMirror": {
+      "message": "Spiegelen"
+   },
+   "textMirrorH": {
+      "message": "Horizontaal"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "Verticaal"
+   },
+   "textOff": {
+      "message": "Uit"
+   },
+   "textReload": {
+      "message": "Herlaad camera lijst"
+   },
+   "textResolution": {
+      "message": "Resolutie"
+   },
+   "textResolutionWarn": {
+      "message": "Uw camera ondersteunt deze resolutie niet. Kies alstublieft een andere resolutie."
+   },
+   "textReviewTitle": {
+      "message": "Weergave"
+   },
+   "textSaveDisc": {
+      "message": "Sla op naar schijf"
+   },
+   "textSavePDF": {
+      "message": "Sla op als PDF"
+   },
+   "textSelectDevice": {
+      "message": "Selecteer Camera"
+   },
+   "textSettings": {
+      "message": "Instellingen"
+   },
+   "textSnapshotTimer": {
+      "message": "Momentopname Timer"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}

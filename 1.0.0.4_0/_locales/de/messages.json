@@ -1,0 +1,115 @@
+{
+   "appDesc": {
+      "description": "Visualizer ermöglicht es, mit Ihrer USB-Kamera erstklassige Aufnahmen zu machen und diese zu präsentieren.",
+      "message": "Visualizer ermöglicht es, mit Ihrer USB-Kamera erstklassige Aufnahmen zu machen und diese zu präsentieren."
+   },
+   "appName": {
+      "description": "IPEVO Visualizer",
+      "message": "IPEVO Visualizer"
+   },
+   "btnCamera": {
+      "message": "Kamera"
+   },
+   "btnCancel": {
+      "message": "Abbrechen"
+   },
+   "btnConfirm": {
+      "message": "Bestätigen"
+   },
+   "btnReset": {
+      "message": "Reset"
+   },
+   "btnReview": {
+      "message": "Überprüfung"
+   },
+   "btnReviewPic": {
+      "message": "Überprüfungsmodus"
+   },
+   "btnRotate": {
+      "message": "Drehen"
+   },
+   "btnSave": {
+      "message": "Speichern"
+   },
+   "btnSnapshot": {
+      "message": "Snapshots aufnehmen"
+   },
+   "text10Secs": {
+      "message": "10 Sekunden"
+   },
+   "text2Secs": {
+      "message": "2 Sekunden"
+   },
+   "text3Secs": {
+      "message": "3 Sekunden"
+   },
+   "text4Secs": {
+      "message": "4 Sekunden"
+   },
+   "textDelete": {
+      "message": "Löschen"
+   },
+   "textDeleteTitle": {
+      "message": "Diese Datei löschen?"
+   },
+   "textDeleteWarn": {
+      "message": "Diese Dateien werden permanent gelöscht und können nicht wieder hergestellt werden. Sind Sie sicher?"
+   },
+   "textDisplayMode": {
+      "message": "Anzeigemodus"
+   },
+   "textFreeze": {
+      "message": "Standbild"
+   },
+   "textFullScreen": {
+      "message": "Vollbildschirm"
+   },
+   "textInstantPreview": {
+      "message": "Sofortige Voransicht"
+   },
+   "textMirror": {
+      "message": "Spiegeln"
+   },
+   "textMirrorH": {
+      "message": "Horizontal"
+   },
+   "textMirrorHV": {
+      "message": "H+V"
+   },
+   "textMirrorV": {
+      "message": "Vertikal"
+   },
+   "textOff": {
+      "message": "Aus"
+   },
+   "textReload": {
+      "message": "Kameraliste erneut laden"
+   },
+   "textResolution": {
+      "message": "Aufösung"
+   },
+   "textResolutionWarn": {
+      "message": "Ihre Kamera unterstützt diese Auflösung nicht. Wählen Sie bitte eine andere Auflösung."
+   },
+   "textReviewTitle": {
+      "message": "Fotos überprüfen"
+   },
+   "textSaveDisc": {
+      "message": "Speichern auf Festplatte"
+   },
+   "textSavePDF": {
+      "message": "Speichern als PDF"
+   },
+   "textSelectDevice": {
+      "message": "Kamera wählen"
+   },
+   "textSettings": {
+      "message": "Einstellungen"
+   },
+   "textSnapshotTimer": {
+      "message": "Schnappschuss-Timer"
+   },
+   "textZoom": {
+      "message": "Zoom"
+   }
+}
